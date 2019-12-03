@@ -2,7 +2,7 @@ module.exports = [
   {
     input: 'src-preserved/index.js',
     output: {
-      dir: 'dist-unpreserved',
+      dir: 'dist-preserved',
       format: 'es'
     },
     preserveModules: true
